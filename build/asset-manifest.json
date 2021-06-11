@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80169146.chunk.css",
+    "main.js": "/static/js/main.778c393c.chunk.js",
+    "main.js.map": "/static/js/main.778c393c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.58a337e4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.58a337e4.js.map",
+    "static/js/2.e091358e.chunk.js": "/static/js/2.e091358e.chunk.js",
+    "static/js/2.e091358e.chunk.js.map": "/static/js/2.e091358e.chunk.js.map",
+    "static/js/3.eb146f83.chunk.js": "/static/js/3.eb146f83.chunk.js",
+    "static/js/3.eb146f83.chunk.js.map": "/static/js/3.eb146f83.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.80169146.chunk.css.map": "/static/css/main.80169146.chunk.css.map",
+    "static/js/2.e091358e.chunk.js.LICENSE.txt": "/static/js/2.e091358e.chunk.js.LICENSE.txt",
+    "static/media/Payment.5e8c2056.png": "/static/media/Payment.5e8c2056.png",
+    "static/media/champ1.9e75b35a.png": "/static/media/champ1.9e75b35a.png",
+    "static/media/champ2.f9c4d708.png": "/static/media/champ2.f9c4d708.png",
+    "static/media/champ3.823608c0.png": "/static/media/champ3.823608c0.png",
+    "static/media/Champ.css": "/static/media/champion.1effab01.jpg",
+    "static/media/crown.f99ef050.png": "/static/media/crown.f99ef050.png",
+    "static/media/game2.a76d6645.png": "/static/media/game2.a76d6645.png",
+    "static/media/herovid.cbd36c3b.mp4": "/static/media/herovid.cbd36c3b.mp4",
+    "static/media/logo.b99136bb.png": "/static/media/logo.b99136bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58a337e4.js",
+    "static/js/2.e091358e.chunk.js",
+    "static/css/main.80169146.chunk.css",
+    "static/js/main.778c393c.chunk.js"
+  ]
+}
