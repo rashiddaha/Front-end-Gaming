@@ -1,0 +1,152 @@
+.navbar {
+  background-color: #212121;
+  height: 53px;
+}
+
+.sss {
+  text-decoration: none;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  padding-inline-end: 0em;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.lu {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+.h2 {
+  width: 75px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 17px/10px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0px 18px;
+}
+li {
+  display: inline-block;
+  color: #fff;
+}
+.link1:hover {
+  text-decoration: none;
+}
+
+#s {
+  color: #fff;
+  text-decoration: none;
+  width: 90px;
+}
+#s:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+#s:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#s:hover:after {
+  background-color: #f69204;
+  content: "";
+  height: 3px;
+  text-decoration: none;
+  margin: 20px auto;
+  text-decoration: none;
+  width: 70px;
+  display: block;
+}
+.h1 {
+  top: 24px;
+  left: 99px;
+  width: 75px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 17px/10px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0px 55px;
+}
+
+.btn1 {
+  float: right;
+  padding: 25px 15px;
+  width: 123px;
+  height: 28px;
+  text-align: right;
+  font: normal normal bold 15px/10px Arial;
+  color: #212121;
+
+  border: 0px;
+  opacity: 1;
+}
+.img {
+  width: 183px;
+  height: 50px;
+  margin-left: 110px;
+  vertical-align: middle;
+}
+.img1 {
+  float: center;
+}
+.btnn {
+  float: right;
+}
+.log {
+  float: right;
+}
+.col-5 {
+  float: left;
+  width: 600px;
+  padding-left: 40px;
+  height: 53px;
+}
+.col-3 {
+  float: left;
+  vertical-align: middle;
+  height: 53px;
+}
+
+.col-4 {
+  height: 53px;
+  float: right;
+  margin-left: 90px;
+}
+.aa {
+  background-color: #212121;
+  height: 53px;
+}
+.btn {
+  color: #f69204;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #212121;
+  text-align: right;
+  border-left: 2px solid gray;
+  padding-top: 18px;
+}
+.btn2 {
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #f69204;
+  text-align: center;
+  width: 90px;
+}

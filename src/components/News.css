@@ -1,0 +1,101 @@
+.ah {
+  background: #4a4747 0% 0% no-repeat padding-box;
+  width: auto;
+  height: auto;
+}
+#container4 {
+  height: 400px;
+  margin-top: 0px;
+}
+.cham4 {
+  top: 5599px;
+  margin-left: -170px;
+  width: 698px;
+  height: 89px;
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 40px/49px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#new1 {
+  float: left;
+  position: relative;
+  width: 345px;
+  margin-left: 30px;
+  height: 204px;
+}
+#cham5 {
+  top: 5786px;
+  left: 47px;
+  width: 345px;
+  height: 200px;
+  border: 1px solid var(--unnamed-color-303030);
+  border: 1px solid #303030;
+  opacity: 1;
+}
+.cham6 {
+  float: left;
+
+  width: 197px;
+  position: absolute;
+  margin-bottom: 0px;
+  height: 204px;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.7 opacity */
+  color: #f1f1f1;
+  padding: 94px;
+}
+#fifa {
+  top: 5813px;
+  width: 162px;
+  margin-left: -85px;
+  margin-top: -80px;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal bold 14px/15px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#may {
+  margin-left: -85px;
+  font-size: 12px;
+}
+.pp {
+  margin-left: -85px;
+  top: 5928px;
+  left: 60px;
+  width: 261px;
+  height: 68px;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 13px/13px Calibri;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#bta {
+  top: 6038px;
+  left: 60px;
+  width: 108px;
+  height: 40px;
+  background: var(--unnamed-color-49ecf8) 0% 0% no-repeat padding-box;
+  background: #49ecf8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-left: -80px;
+  margin-top: -100px;
+}
+#pro1 {
+  height: 17px;
+  color: var(--unnamed-color-212121);
+  text-align: center;
+  font: normal normal bold 12px/15px Arial;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
