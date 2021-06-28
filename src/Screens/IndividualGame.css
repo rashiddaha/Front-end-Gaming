@@ -1,0 +1,97 @@
+.indi-game{
+    min-height: 200vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+
+.indi-game .bg-image{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    color: white;
+    position: relative;
+}
+
+.bg-image .title{
+    position: absolute;
+    bottom: 10%;
+    
+    font: normal normal bold 50px/80px Bahnschrift;
+    font-family: 'Bahnschrift', sans-serif;
+    padding-left: 50px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.indi-game .bottom-sec{
+    flex: 1;
+    width: 100%;
+    background: #212121 0% 0% no-repeat padding-box;
+    
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 400px;
+}
+
+.bottom-sec .subtitle{
+    font: normal normal bold 40px/80px Bahnschrift;
+    font-family: 'Bahnschrift', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+
+    .indi-game .bg-image{
+        height: 40vh;
+        width: 100%;
+        background-color: brown;
+        display: flex;
+        align-items: center; 
+        color: white;
+        position: relative;
+    }
+
+    .bg-image .title{
+        position: absolute;
+        bottom: 10%;
+        font: normal normal bold 30px/40px Bahnschrift;
+        font-family: 'Bahnschrift', sans-serif;
+        padding-left: 30px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+
+    .indi-game .bottom-sec{
+        flex: 1;
+        width: 100%;
+        background: #212121 0% 0% no-repeat padding-box;
+        
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    .bottom-sec .subtitle{
+        font: normal normal bold 25px/0px Bahnschrift;
+        font-family: 'Bahnschrift', sans-serif;
+        padding: 30px 0px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}

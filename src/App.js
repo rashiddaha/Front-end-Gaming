@@ -1,28 +1,63 @@
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Navbar2 from "./components/Navbar2";
-import Tournament from "./components/pages/Tournament";
-import Footer from "./components/Footer";
-import Games from "./components/pages/Games";
+import './App.css';
+import Home from './Screens/Home';
+import Navbar from './Components/Navbar/Navbar'
 
-import Indgames from "./components/pages/Indgames";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Footer from './Components/Footer/Footer';
+import { useEffect, useState } from 'react';
+import MobileNavbar from './Components/Navbar/MobileNavbar';
+import AllTournaments from './Screens/AllTournaments';
+import AllGames from './Screens/AllGames';
+import SignUp from './Screens/SignUp';
+import Login from './Screens/Login';
+import Settings from './Screens/Settings';
+import Matches from './Screens/Matches';
+import { useHistory } from 'react-router-dom';
+import MainPro from './Screens/Profile Page/MainPro';
+import IndividualGame from './Screens/IndividualGame';
+
 
 function App() {
+  const [width, setwidth] = useState(window.innerWidth)
+  const history = useHistory();
+  useEffect(() => {
+      const widthHandler = () => {
+        setwidth(window.innerWidth)
+      }
+      window.onresize=widthHandler
+  }, [width])
+
+  
+  console.log(width)
   return (
-    <div>
       <Router>
-        <Navbar2 />
+        {
+          width> '800' ?
+          <Navbar></Navbar>
+          :
+          <MobileNavbar></MobileNavbar>
+          
+        }
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/tournament" component={Tournament} />
-          <Route exact path="/game" component={Games} />
-          {/* <Route exact path="/ind" component={Indgames} /> */}
-          <Route exact path="/:game/:ind" component={Indgames} />
+          <Route exact path='/' component={Home} /> 
+          {/* <Login ></Login> */}
+          <Route path='/tournament'  ><AllTournaments width={width}></AllTournaments></Route>
+          <Route path='/games'  ><AllGames width={width}></AllGames></Route>
+          <Route path='/signup'  ><SignUp width={width}></SignUp></Route>
+          <Route path='/login'  component={Login} />
+          <Route path='/settings'  ><Settings width={width}></Settings></Route>
+          <Route path='/matches'  ><Matches width={width}></Matches></Route>
+          <Route path='/profile/:id'  > <MainPro /> </Route>
+          {/* <Route path='/indigame'  ><IndividualGame width={width}></IndividualGame></Route> */}
+          <Route path='/:game/:ind'  ><IndividualGame width={width}></IndividualGame></Route>
+          {/* <Route exact path="/:game/:ind" component={Indgames} /> */}
         </Switch>
-        <Footer />
+        <Footer></Footer>
       </Router>
-    </div>
   );
 }
 

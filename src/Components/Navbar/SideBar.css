@@ -1,0 +1,108 @@
+.side-cont{
+    position: absolute;
+    left: 85%;
+    right: 0%;
+    top: 7vh;
+    bottom: 0%;
+    background-color: #4A4747;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    z-index: 111111111111111;
+}
+
+.side-cont .close{
+    
+    display: flex;
+    align-items: center;
+    font: normal normal bold 15px/30px Arial;
+}
+
+.side-cont .close>img{
+    
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+
+.side-cont .cash-cont{
+    
+    display: flex;
+    align-items: center;
+    font: normal normal normal 12px/30px Calibri;
+}
+
+.side-cont .cash-cont>img{
+        
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.side-cont .boxes{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.boxes .left-box, .boxes .right-box{
+    width: 49%;
+    height: 100%;
+    background: #605E5E 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    
+}
+
+.side-cont .view-profile{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background: #605E5E 0% 0% no-repeat padding-box;
+    height: 7%;
+    width: 100%;
+    font: normal normal normal 13px/25px Calibri;
+    
+}
+
+.side-cont .common{
+    font: normal normal normal 13px/30px Calibri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 32px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.side-cont .line{
+    width: 100%;
+    height: 2px;
+    border: 0.5px solid #CBCBCB;
+    margin: 10px 0px;
+}
+
+.side-cont .lang{
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lang>button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+    background: #F69204 0% 0% no-repeat padding-box;
+    font: normal normal bold 12px/30px Calibri;
+    color: black;
+    border: none;
+}

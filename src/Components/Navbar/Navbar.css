@@ -1,0 +1,109 @@
+.navbar{
+    height: 7vh;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar .Links{
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    /* background-color: yellow; */
+    /* border-bottom: 5px solid #f69204; */
+    font-size:18px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Links .link-cont{
+    border-top: 5px solid transparent;
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    border-bottom: 5px solid transparent;
+}
+
+.Links .link-cont:hover{
+    border-bottom: 5px solid #f69204;
+}
+
+
+
+.navbar .title{
+
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.title>img{
+    cursor: pointer;
+}
+
+.navbar .icons-div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: brown; */
+}
+
+
+
+.icons-div .icons{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: tomato; */
+}
+
+
+.icons>img, .icons>div{
+    cursor: pointer;
+}
+
+.icons-div .btn-flex{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    
+}
+
+.btn-flex .home-login-btn{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #F69204;
+    opacity: 1;
+    padding: 0px 20px;
+    height: 100%;
+    display: flex;
+    place-items: center;
+    border-left: 0.5px dotted lightgray;
+}
+
+.btn-flex .join-free-btn{
+    padding: 0px 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    background-color: #f69204;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

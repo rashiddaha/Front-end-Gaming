@@ -1,0 +1,38 @@
+.menu-cont{
+    position: absolute;
+    top: 7vh;
+    bottom: 0%;
+    right: 35%;
+    left: 0%;
+    background-color: #4A4747;
+    display: flex;
+    flex-direction: column;
+    z-index: 11111111111111;
+}
+
+.menu-cont .ico-title{
+    height: 7%;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-cont .ico-title:hover{
+    background-color: #605E5E;
+   
+}
+
+.ico-title .title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    opacity: 0.7;
+    margin-left: 20px;
+}
+
+.ico-title .title:hover{
+    opacity: 1;
+}

@@ -1,0 +1,223 @@
+.login-cont{
+    min-height: 180vh;
+    width: 100%;
+    background-image: url('../bg/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-cont .login-sect{
+    min-height: 80vh;
+    width: 40%;
+    background: #272727 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 10px solid #F69204;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.login-cont .title{
+    text-align: center;
+    font: normal normal normal 40px/40px Bahnschrift;
+    font-family: 'Bahnschrift', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 70%;
+}
+
+.login-cont .subtitle{
+    color: #95989A;
+    font: normal normal normal 15px/40px Arial;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: flex;
+
+}
+
+.login-sect .social-login-fb, .login-cont .social-login-google{
+    margin-top: 20px;
+    width: 60%;
+    height: 7vh;
+    background: #1976D2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.social-login-fb .title, .social-login-google .title{
+    font: normal normal bold 15px/0px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: auto;
+}
+
+.social-login-google .title{
+    color: #4A4747;
+    opacity: 0.79;
+}
+
+.login-sect .form-sect{
+    flex: 1;
+    width: 100%;
+    /* background-color: wheat; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-cont .input-fields{
+    height: 8vh;
+    background: #272727 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 0px 20px;
+    
+}
+
+.login-cont .label{
+    font: normal normal normal 20px/55px Calibri;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.login-cont .forgot{
+    font: normal normal normal 18px/55px Calibri;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    color: #F69204;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.login-cont .check-policy{
+    margin-left: 20px;
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .login-cont{
+        min-height: 110vh;
+        width: 100%;
+        background-image: url('../bg/background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    
+    .login-cont .login-sect{
+        height: max-content;
+        width: 100%;
+        background: #272727 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-top: 5px solid #F69204;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 50px;
+    }
+    
+    .login-cont .title{
+        text-align: center;
+        font: normal normal normal 40px/40px Bahnschrift;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        width: 70%;
+    }
+    
+    .login-cont .subtitle{
+        color: #95989A;
+        font: normal normal normal 15px/40px Arial;
+        letter-spacing: 0px;
+        opacity: 1;
+        display: flex;
+    
+    }
+    
+    .login-sect .social-login-fb, .login-cont .social-login-google{
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        background: #1976D2 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .social-login-fb .title, .social-login-google .title{
+        font: normal normal bold 15px/0px Arial;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        width: auto;
+    }
+    
+    .social-login-google .title{
+        color: #4A4747;
+        opacity: 0.79;
+    }
+    
+    .login-sect .form-sect{
+        flex: 1;
+        width: 100%;
+        /* background-color: wheat; */
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .login-cont .input-fields{
+        height: 50px;
+        background: #272727 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 2px solid #CCCCCC;
+        border-radius: 4px;
+        opacity: 1;
+        padding: 0px 20px;
+        
+    }
+    
+    .login-cont .label{
+        font: normal normal normal 15px/35px Calibri;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .login-cont .forgot{
+        font: normal normal normal 12px/55px Calibri;
+        text-decoration: underline;
+        letter-spacing: 0px;
+        color: #F69204;
+        opacity: 1;
+        margin-left: 0px;
+    }
+    
+    .login-cont .check-policy{
+        margin-left: 0px;
+        display: flex;
+        /* align-items: center; */
+        margin-bottom: 10px;
+    }
+}

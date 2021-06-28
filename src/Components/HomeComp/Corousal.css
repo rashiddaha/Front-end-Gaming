@@ -1,0 +1,63 @@
+.corousal-card{
+    height: 50vh;
+    width: 90%;
+    background-color: brown;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.corousal-card .card-img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.corousal-card .discr{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    top: 80%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    font: normal normal bold 20px/20px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+@media (max-width: 800px) {
+    .corousal-card{
+        height: 20vh;
+        width: 95%;
+        background-color: brown;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .corousal-card .card-img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0px;
+    }
+
+    .corousal-card .discr{
+        position: absolute;
+        background-color: black;
+        opacity: 0.7;
+        top: 80%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        font: normal normal bold 9px/9px Arial;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    
+    }
+}

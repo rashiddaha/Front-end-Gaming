@@ -1,0 +1,188 @@
+.footer{
+    min-height: 30vh;
+    width: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+.footer .first-cont, .footer .second-cont, .footer .last-cont{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .second-cont{
+    width: 30%;
+}
+
+.footer .last-cont{
+
+    width: 20%;
+}
+
+.footer .contact-col, .footer .company-col{
+    height: 90%;
+    width: 45%;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+}
+
+.footer .payment-col{
+    height: 90%;
+    width: 90%;
+    /* background-color: magenta; */
+}
+
+.footer .social-col{
+    height: 90%;
+    width: 100%;
+    /* background-color: magenta; */
+}
+
+.company-col .title, .contact-col .title{
+    font: normal normal bold 17px/30px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.contact-col .links, .company-col .links{
+    font: normal normal normal 15px/30px Calibri;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer .payment-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+/* .payment-col>img{
+    object-fit: contain;
+} */
+
+.footer .social-col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social-col .social-icons{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social-col .cc{
+    font: normal normal normal 17px/50px Calibri;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.social-col .policy{
+    font: normal normal normal 17px/0px Calibri;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    letter-spacing: 0px;
+    color: #F69204;
+}
+
+@media (max-width: 800px) {
+    .footer{
+        height: 50vh;
+        width: 100%;
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 0px 10px;
+    }
+
+    .footer .first-cont, .footer .second-cont, .footer .last-cont{
+        height: 100%;
+        width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .contact-col, .footer .company-col{
+        height: 90%;
+        width: 45%;
+        /* background-color: magenta; */
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-start;
+    
+    }
+
+    .company-col .title, .contact-col .title{
+        font: normal normal bold 14px/20px Arial;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .contact-col .links, .company-col .links{
+        font: normal normal normal 12px/20px Calibri;
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .footer .payment-col{
+        height: 100%;
+        width: 100%;
+        /* background-color: magenta; */
+
+    }
+
+    .footer .social-col{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .social-col .social-icons{
+    
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .social-col .cc ,.social-col .policy{
+        font: normal normal normal 15px/15px Calibri;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .social-col .policy{
+        color: #F69204;
+    }
+}

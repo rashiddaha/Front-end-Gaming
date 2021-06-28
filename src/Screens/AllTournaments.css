@@ -1,0 +1,119 @@
+.all-tourn{
+    width: 100%;
+    min-height: 100vh;
+    background: #212121 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+
+.all-tourn .title{
+    font: normal normal bold 60px/0px Bahnschrift;
+    font-family: 'Bahnschrift', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.all-tourn .sub-title{
+    font: normal normal normal 25px/100px Calibri;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+.all-tourn .cards-sec{
+    margin-top: 30px;
+    flex: 1;
+    width: 100%;
+    /* background-color: wheat; */
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-items: center;
+
+}
+
+@media (max-width: 800px) {
+    .all-tourn{
+        width: 100%;
+        min-height: 100vh;
+        background: #212121 0% 0% no-repeat padding-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    
+    .all-tourn .title{
+        margin-top: 40px;
+        font: normal normal bold 25px/0px Bahnschrift;
+        font-family: 'Bahnschrift', sans-serif;  
+        width: 100%;
+        text-align: center;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
+    .all-tourn .sub-title{
+        font: normal normal normal 10px/50px Calibri;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .all-tourn .filter-cont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #FFFFFF;
+    }
+
+    .all-tourn .cards-sec{
+        margin-top: 30px;
+        flex: 1;
+        width: 100%;
+        /* background-color: wheat; */
+        display: grid;
+        grid-template-columns: auto ;
+        justify-items: center;
+       
+       
+    }
+    .all-tourn .navigation-cont{
+        height: 8vh;
+        width: 60%;
+        /* background-color: black; */
+        place-self: flex-end;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation-cont .page-num{
+        height: 100%;
+        width: 40%;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.7;
+    }
+
+    .navigation-cont .arrow-cont{
+        height: 100%;
+        width: 40%;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
